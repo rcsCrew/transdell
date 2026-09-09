@@ -1,0 +1,4 @@
+sistema/.env
+sistema/uploads/fotos/*
+!sistema/uploads/fotos/.gitkeep
+sistema/vendor/

@@ -2,10 +2,14 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "static-site",
+      "name": "landing",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "5500"],
+      "runtimeArgs": ["-m", "http.server", "5500", "--directory", "landing"],
       "port": 5500
+    },
+    {
+      "name": "sistema",
+      "url": "http://sistema-do-paulo.test"
     }
   ]
 }

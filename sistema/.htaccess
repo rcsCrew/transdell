@@ -1,0 +1,6 @@
+# Bloqueia acesso direto a arquivos sensíveis (.env, .git, composer.json, etc)
+<FilesMatch "^(\.env.*|composer\.(json|lock)|\.gitignore|README\.md|.*\.sql|.*\.log)$">
+    Require all denied
+</FilesMatch>
+
+Options -Indexes
